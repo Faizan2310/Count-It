@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "CountIt",
+    "slug": "countit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.iamrajanabeel.CountIt",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "69113ea0-9b7b-4f8f-b9dc-713e9731108c"
+      }
+    },
+    "owner": "iamrajanabeel"
+  },
+  "name": "CountIt"
+}
